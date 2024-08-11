@@ -1,0 +1,56 @@
+body{
+    background-color:(255,255,255);
+    text-align: center;
+}
+.btn{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 1.2rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.yellow{
+    background-color:#f99b45 ;
+}
+.red{
+    background-color: #d95980;
+}
+.green{
+    background-color:#63aac0 ;
+}
+.purpel{
+    background-color: #819ff9;
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: green;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container button{
+    margin-left: 40%;
+    width: 20%;
+    height: 30px;
+    border-radius: 50px;
+    background-color: greenyellow;
+    font-size: 20px;
+}
+.container p{
+    font-size: 25px;
+    margin-left: 38%;
+    width: 25%;
+    height: 30px;
+    border-radius: 50px;
+    color: black;
+    background-color: white;
+}
